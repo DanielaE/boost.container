@@ -27,7 +27,7 @@ std::size_t allocation_count = 0;
 #pragma warning (disable : 4290)
 #endif
 
-#if __cplusplus >= 201103L
+#ifndef BOOST_NO_CXX11_NOEXCEPT
 #define BOOST_CONTAINER_NEW_EXCEPTION_SPECIFIER
 #define BOOST_CONTAINER_DELETE_EXCEPTION_SPECIFIER noexcept
 #else

@@ -18,6 +18,10 @@
 #include <cstddef>
 #include <new>
 
+#ifdef BOOST_MSVC
+   #pragma warning (disable : 4702) // unreachable code
+#endif
+
 namespace boost {
 namespace container {
 namespace pmr {
