@@ -43,6 +43,9 @@
 #pragma warning (disable : 4702)
 #pragma warning (disable : 4390) /*empty controlled statement found; is this the intent?*/
 #pragma warning (disable : 4251 4231 4660) /*dll warnings*/
+#pragma warning (disable : 4057)
+#pragma warning (disable : 4204)
+#pragma warning (disable : 4701)
 #endif
 
 #define DL_SIZE_IMPL(p) (chunksize(mem2chunk(p)) - overhead_for(mem2chunk(p)))
