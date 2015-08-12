@@ -45,4 +45,5 @@
    #pragma warning (disable : 4671) //  the copy constructor is inaccessible
    #pragma warning (disable : 4584) //  X is already a base-class of Y
    #pragma warning (disable : 4510) //  default constructor could not be generated
+   #pragma warning (disable : 4913) //  user defined binary operator ',' exists but no overload could convert all operands, default built-in binary operator ',' used
 #endif   //BOOST_MSVC
