@@ -49,5 +49,5 @@
    #pragma warning (disable : 4711) // function selected for automatic inline expansion
    #pragma warning (disable : 4786) // identifier truncated in debug info
    #pragma warning (disable : 4996) // "function": was declared deprecated
- 
+   #pragma warning (disable : 4913) //  user defined binary operator ',' exists but no overload could convert all operands, default built-in binary operator ',' used
 #endif   //BOOST_MSVC
